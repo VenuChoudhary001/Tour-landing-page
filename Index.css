@@ -1,0 +1,185 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 0;
+    padding: 0; */
+    list-style: none;
+    text-decoration: none;
+}
+.container1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00000085;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li a{
+    padding: 25px;
+    color: white;
+}
+.container1 img{
+    padding-right: 250px;
+    padding-left: 25px;
+}
+.container1 h1{
+    padding-left: 250px; 
+}
+
+.container2::before
+{
+    background-image: url("./Backgrounds/tree-3822149_1920.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 506px;
+    z-index: -1;
+} 
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 94px;
+}
+.container2 h1{
+    background-color: #000000b3;
+    color: white;
+    font-size: 51px;
+    padding: 25px;
+    border-radius: 12px;
+}
+#Service
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px;
+    text-align: center;
+}
+#Service h1{
+    font-family: cursive;
+}
+.container3{
+    display: flex;
+    padding: 25px;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+}
+.images img{
+    width:351px;
+    height: 353px;
+    border-radius: 21px;
+    transition: all 0.25s ease-in-out;
+}
+.images img:hover{
+    transform: scale(1.05);
+    border-radius: 10px;
+    opacity:0.75;
+}
+.container4{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    margin-top:39px;
+    border-radius:16px ;
+    background-image: url("./Backgrounds/sea-540123_1920.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 445px;
+    width: 100%;
+}
+.inner{
+    padding-left: 35px;
+    padding-right: 939px;
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+.inner hr{
+    width: 0.5px solid white;
+}
+.inner a{
+    text-decoration: none;
+    color: white;
+    background-color: #007180;
+    border: 2px solid white;
+    padding:5px;
+    border-radius: 5px;
+    transition: all 0.25s ease-in-out;
+}
+.inner a:hover{
+    font-size: 32px;
+}
+.container5{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    margin-top:39px;
+    border-radius:16px ;
+    background-image: url("./Backgrounds/forest-3119826_1920.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 445px;
+    width: 100%;
+}
+.inner1{
+    padding-left: 35px;
+    /* padding-right: 939px; */
+    text-align: left;
+    font-size: 25px;
+    color: black;
+}
+.container6
+{
+    background-color: antiquewhite;
+    padding: 25px;
+}
+.container7
+{
+    display: flex;
+     /* padding-top: 108px;  */
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+} 
+.images1 img{
+    width:278px;
+    height: 325px;
+    border-radius: 17px;
+    margin: 35px;
+    transition: all 0.25s ease-in-out;
+}
+.images1 img:hover{
+    transform: scale(1.05);
+    border-radius: 10px;
+    opacity:0.75;
+}
+.container8{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-color: #ff00005c;
+}
+.inner2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    background-color: #007180;
+    border: 2px solid;
+    padding:5px;
+    border-radius: 5px;
+    transition: all 0.25s ease-in-out;
+}
+.inner2 a:hover{
+    font-size: 32px;
+}
